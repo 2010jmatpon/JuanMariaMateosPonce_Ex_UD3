@@ -1,21 +1,28 @@
 
 import java.awt.event.KeyEvent;
 
-
-
+/**
+ *
+ * @author Juan María Mateos Ponce
+ */
 public class CrearPartido extends javax.swing.JFrame
 {
    
     
     private Apuesta v;
     
-   
+    /**
+     * Creo un metodo publico CrearPartido
+     */
     public CrearPartido() 
     {
         initComponents();
     }
 
-   
+    /**
+     *  Creo un método público CrearPartido
+     * @param apuesta
+     */
     public CrearPartido(Apuesta apuesta) 
     {
         initComponents();
@@ -70,6 +77,10 @@ public class CrearPartido extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * Creo un método añade partido
+     * @param p es el partido
+     */
     public void añadePartido(String p)
     {
         v.partidoNuevo(p);
@@ -88,7 +99,10 @@ public class CrearPartido extends javax.swing.JFrame
         }
     }//GEN-LAST:event_tPartidoKeyPressed
 
-    
+    /**
+     *  Creo un metodo principal
+     * @param args
+     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
